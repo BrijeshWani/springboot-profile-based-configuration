@@ -1,0 +1,11 @@
+spring.application.name: springboot-client
+server.port: 8080
+---
+spring.profiles: common
+spring.profiles.include:
+  - dev
+  - test
+---
+spring.profiles: devonly
+spring.profiles.include:
+  - dev
